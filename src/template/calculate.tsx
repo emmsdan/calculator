@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Button } from '@/components/ui/button';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import '@/App.css'
 
 const airportData = {
@@ -14,7 +13,7 @@ const airportData = {
   "RJTT": { name: "Tokyo Haneda Airport", lat: 35.5533, lon: 139.7811 },
 };
 
-function haversine(lat1, lon1, lat2, lon2) {
+function haversine(lat1: number, lon1: number, lat2: number, lon2: number) {
   const R = 6371; // Earth's radius in km
   const dLat = (lat2 - lat1) * Math.PI / 180;
   const dLon = (lon2 - lon1) * Math.PI / 180;
@@ -41,9 +40,9 @@ export default function AviationEmissionsCalculator() {
   const [cargo, setCargo] = useState('');
   const [flightLevel, setFlightLevel] = useState('');
   const [weatherCondition, setWeatherCondition] = useState('normal');
-  const [distance, setDistance] = useState(null);
-  const [carbonEmissions, setCarbonEmissions] = useState(null);
-  const [error, setError] = useState(null);
+  const [distance, setDistance] = useState<null | number>(null);
+  const [carbonEmissions, setCarbonEmissions] = useState<null | number>(null);
+  const [error, setError] = useState<null | string>(null);
   const [showResults, setShowResults] = useState(false);
 
   useEffect(() => {

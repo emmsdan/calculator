@@ -21,10 +21,11 @@
   }
 
   .info {
+    padding: 3rem;
+
     @media screen and (min-width: $tablet) {
       max-width: 65%;
     }
-    padding: 3rem;
     .picture {
       img {
         opacity: 0.3;
