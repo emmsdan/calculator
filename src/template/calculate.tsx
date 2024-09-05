@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Button } from '@/components/ui/button';
 import '@/App.css'
@@ -88,6 +88,10 @@ export default function AviationEmissionsCalculator() {
     setError(null);
     setShowResults(true);
   };
+  
+  React.useEffect(()=>{
+    document.title = 'Aviation Carbon Emissions Calculator'
+  }, [])
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-400 to-purple-500 py-12 px-4 sm:px-6 lg:px-8">
