@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Button } from '@/components/ui/button';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import '@/App.css'
 
 const airportData = {
   "DNAA": { name: "Nnamdi Azikiwe International Airport, Abuja", lat: 9.0065, lon: 7.2631 },
