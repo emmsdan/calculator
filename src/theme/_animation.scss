@@ -1,0 +1,18 @@
+@keyframes slideIn {
+  from {
+    transform: translateY(-100px);
+  }
+
+  to {
+    transform: translateY(1);
+  }
+}
+@keyframes slideOut {
+  from {
+    transform: translateY(1);
+  }
+
+  to {
+    transform: translateY(-300px);
+  }
+}

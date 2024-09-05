@@ -1,0 +1,46 @@
+.light {
+  background: $light-theme;
+  color: $dark-theme;
+
+  header {
+    background: $light-theme;
+    .navbar-menu {
+      background: $light-theme;
+    }
+  }
+  .footer {
+    background: $blue-gradiant-dark !important;
+
+    .place-holder {
+      background: $light-theme;
+    }
+  }
+  .infocard {
+    color: $blue-gray;
+
+    button {
+      background: $dark-theme !important;
+      color: $light-theme !important;
+    }
+  }
+
+  hr {
+    background: $dark-theme;
+  }
+
+  .experiment {
+    button,
+    .button {
+      border: 1px solid $dark-theme;
+      color: $dark-theme;
+    }
+  }
+  .login {
+    .card,
+    .card-content,
+    .card-header {
+      box-shadow: none !important;
+      //border: none !important;
+    }
+  }
+}

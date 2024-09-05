@@ -1,0 +1,45 @@
+.dark {
+  background: $dark-theme;
+  color: $light-theme !important;
+
+  header {
+    background: $dark-theme-header;
+    img {
+      filter: invert(100%);
+    }
+    .navbar-menu {
+      background: $dark-theme-header;
+    }
+  }
+  .footer {
+    background: $blue-gradiant-dark !important;
+
+    .place-holder {
+      background: $dark-theme;
+    }
+  }
+  .infocard {
+    color: $white !important;
+    img {
+      filter: invert(100%);
+    }
+    button {
+      background: $light-theme !important;
+      color: $dark-theme-header !important;
+    }
+  }
+  .experiment {
+    .slide {
+    }
+    .btn-code {
+      border: 1px solid $light-theme;
+      padding: 10px 20px;
+      background: transparent;
+      color: $light-theme;
+    }
+  }
+
+  hr {
+    background: $light-theme;
+  }
+}

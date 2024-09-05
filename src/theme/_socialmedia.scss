@@ -1,0 +1,28 @@
+.social-media {
+  padding: 10px 0;
+  .horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 370px;
+    .contact-us {
+      @extend .subtitle, .is-5;
+      max-width: 100px;
+      padding: 22px 0 0;
+      filter: invert(100);
+    }
+    .social-icon {
+      display: flex;
+      justify-content: space-between;
+      min-width: 200px;
+    }
+    img {
+      width: 30px;
+      filter: none;
+      opacity: 0.5;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}

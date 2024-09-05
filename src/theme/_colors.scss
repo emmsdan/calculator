@@ -1,0 +1,35 @@
+$blue: #0460d4;
+$white: #fff;
+$light-blue: #0b61b3;
+$primary: $blue;
+
+$dark-blue: #084784;
+$blue-gray: #1a314f;
+
+$blue-gradiant: linear-gradient(
+  90deg,
+  rgba(11, 97, 179, 1) 24%,
+  rgba(8, 71, 132, 1) 66%
+);
+$blue-gradiant-color: rgb(11, 97, 179);
+
+$blue-gradiant-dark: linear-gradient(
+  90deg,
+  rgba(8, 71, 132, 1) 1%,
+  rgba(0, 29, 66, 1) 45%
+);
+$blue-gradiant-color-dark: #001d42;
+
+$light-theme: #ecf4fe;
+$light-theme-header: #0b61b3;
+
+$dark-theme: rgba(8, 71, 132, 1);
+$dark-theme-header: rgba(0, 29, 66, 1);
+
+$dark-danger: #e60d17;
+$dark-danger-text: #000;
+$dark-warning: #e6b30d;
+$dark-warning-text: #000;
+
+$black: #000;
+$wind-fall: #81a8ce;

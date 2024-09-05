@@ -1,0 +1,51 @@
+.top-notification {
+  height: 50px;
+  width: 100%;
+  color: $dark-danger-text;
+  background: $dark-danger;
+  border-radius: 0;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+  position: fixed;
+  z-index: 4;
+  transition: background 0.25s ease-in;
+
+  &.dark {
+    background: $dark-theme-header;
+    color: $light-theme;
+  }
+  &.light {
+    background: $light-theme;
+    color: $dark-theme-header;
+  }
+
+  &.black {
+    background: $black;
+    color: $light-theme;
+  }
+
+  .top-message {
+    background: none !important;
+    text-align: center;
+
+    width: 80%;
+  }
+  button.close {
+    float: right;
+    background: unset;
+    padding: 5px;
+    cursor: pointer;
+  }
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}

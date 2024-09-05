@@ -1,0 +1,32 @@
+.footer {
+  min-height: 200px;
+  padding: 0;
+  color: $white;
+  background: $blue-gradiant-color !important;
+  background: $blue-gradiant !important;
+
+  .place-holder {
+    height: 40%;
+    min-height: 150px;
+    border-radius: 0% 100% 61% 39% / 54% 0% 100% 46%;
+    color: transparent;
+  }
+  .navbar {
+    background: none;
+    color: $white;
+    padding: 0px 30px;
+    padding-bottom: 20px;
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    .navbar-item {
+      color: $white;
+      font-family: BalooPaajiBold;
+      &:hover {
+        background: none;
+        cursor: pointer;
+      }
+    }
+  }
+}

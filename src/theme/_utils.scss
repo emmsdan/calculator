@@ -1,0 +1,100 @@
+.pad-1 {
+  padding: 0.9rem;
+}
+.pad-2 {
+  padding: 1.5rem;
+}
+.pad-3 {
+  padding: 2rem;
+}
+.pad-4 {
+  padding: 2.5rem;
+}
+.pad-5 {
+  padding: 3rem;
+}
+.pad-6 {
+  padding: 4rem;
+}
+
+.radius-1 {
+  border-radius: 0.9rem !important;
+}
+.radius-2 {
+  border-radius: 1.5rem !important;
+}
+.radius-3 {
+  border-radius: 2rem !important;
+}
+.radius-4 {
+  border-radius: 2.5rem !important;
+}
+.radius-5 {
+  border-radius: 3rem !important;
+}
+.radius-6 {
+  border-radius: 4rem !important;
+}
+.m-auto {
+  margin: 0 auto;
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+  :hover {
+    text-decoration: none;
+  }
+}
+
+.btn-code {
+  text-transform: uppercase;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.w-35 {
+  width: 35rem;
+}
+
+.dropdown-item.is-active {
+  background-color: $dark-theme !important;
+  color: $light-theme !important;
+  cursor: pointer;
+  a {
+    color: $light-theme !important;
+  }
+}
+
+.not-fixed {
+  position: relative !important;
+}
+.position-relative {
+  position: relative !important;
+}
+.position-fixed {
+  position: fixed !important;
+}
+.position-absolute {
+  position: absolute !important;
+}
+.cursor {
+  cursor: pointer !important;
+}
+
+.btn-code {
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.8rem;
+  border: 1px solid $light-theme;
+  padding: 10px 20px;
+  background: transparent;
+  color: $light-theme;
+  border-radius: 0;
+}

@@ -1,0 +1,20 @@
+.login {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  input {
+    @extend .is-radiusless;
+    border: none;
+  }
+  .login-button {
+    @extend .card-footer-item, .has-text-light;
+    background-color: $blue-gray;
+    cursor: pointer;
+    padding: 1rem;
+    &:hover {
+      background-color: $wind-fall;
+      color: $dark-blue !important;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+//@import "../assets/bootstrap.min.css";
+@import "../../node_modules/bulma/bulma.scss";
+
+// Ensure you include the main styles and modify this path to suite your needs
+//@import "~slither-slider/plugin-dist/slither-slider.css";
+
+.slider-slide {
+  margin: 0 200px;
+}
+
+.slider-slides {
+  padding-bottom: 100px;
+}
+
+.slider-dot {
+  width: 20px;
+  height: 20px;
+
+  &.active-slide {
+    background-color: #8fc7e8;
+    color: #8fc7e8;
+  }
+}
+$tablet: 1020px;
+
+// user defined styles
+@import "colors";
+@import "font";
+@import "utils";
+@import "animation";
+
+@import "loader";
+@import "header";
+@import "footer";
+@import "notification";
+
+// @module
+@import "infocard";
+@import "socialmedia";
+@import "plugin";
+@import "experiment";
+@import "login";
+
+// $theme
+@import "dark";
+@import "light";
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
